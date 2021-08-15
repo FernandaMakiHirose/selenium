@@ -4,8 +4,8 @@
 - Java 8
 - IDE
 - Maven
-- Selenium Webdriver (adicionado no `pom.xml`)
-- JUnit (adicionado no `pom.xml`)
+- [Selenium Webdriver](https://www.selenium.dev/documentation/webdriver/) (adicionado no `pom.xml`)
+- [JUnit](https://junit.org/junit5/docs/current/user-guide/) (adicionado no `pom.xml`)
 
 ## Guia
 1) É necessário instanciar o Driver para poder usá-lo
