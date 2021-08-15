@@ -2,7 +2,7 @@
 
 ## Pré-requisitos
 - Java 8
-- IDE
+- Eclipse
 - Maven
 - [Selenium Webdriver](https://www.selenium.dev/documentation/webdriver/) (adicionado no `pom.xml`)
 - [JUnit](https://junit.org/junit5/docs/current/user-guide/) (adicionado no `pom.xml`)
