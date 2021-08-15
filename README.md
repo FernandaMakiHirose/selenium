@@ -8,8 +8,9 @@
 - [JUnit](https://junit.org/junit5/docs/current/user-guide/) (adicionado no `pom.xml`)
 
 ## Observação
-- Neste projeto eu uso um `chromedriver` da versão compatível com o meu navegador. A sua versão provavelmente é diferente, mas eu tenho uma solução. Clique [aqui](https://chromedriver.chromium.org/downloads) para achar a versão específica do seu Chrome, mas antes disso clique [aqui](https://br.ccm.net/faq/29343-como-verificar-a-versao-do-google-chrome) para descobrir a versão do seu navegador. 
+- Neste projeto eu uso um `chromedriver` da versão compatível com o meu navegador. Então clique [aqui](https://chromedriver.chromium.org/downloads) para achar a versão específica do seu Chrome, mas antes disso clique [aqui](https://br.ccm.net/faq/29343-como-verificar-a-versao-do-google-chrome) para descobrir a versão do seu navegador. 
 - Agora basta substituir o arquivo `chromedriver` do path `selenium\src\test\resources\drivers` pelo arquivo da sua versão. 
+- A automação foi feita em um site, onde seus nomes de seletores podem mudar com o tempo, porém se isso acontecer, basta adicionar o nome do seletor atual do site.
 
 ## Como executar os testes?
 >mvn clean compile test
