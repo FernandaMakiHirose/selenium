@@ -1,4 +1,5 @@
 # Introdução a automação web com Selenium e Java
+Vamos fazer cadastro e login em um site de forma automatizada.
 
 ## Pré-requisitos
 - Java 8
