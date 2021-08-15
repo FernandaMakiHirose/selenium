@@ -7,6 +7,13 @@
 - [Selenium Webdriver](https://www.selenium.dev/documentation/webdriver/) (adicionado no `pom.xml`)
 - [JUnit](https://junit.org/junit5/docs/current/user-guide/) (adicionado no `pom.xml`)
 
+## Observação
+- Neste projeto eu uso um `chromedriver` da versão compatível com o meu navegador. A sua versão provavelmente é diferente, mas eu tenho uma solução. Clique [aqui](https://chromedriver.chromium.org/downloads) para achar a versão específica do seu Chrome, mas antes disso clique [aqui](https://br.ccm.net/faq/29343-como-verificar-a-versao-do-google-chrome) para descobrir a versão do seu navegador. 
+- Agora basta substituir o arquivo `chromedriver` do path `selenium\src\test\resources\drivers` pelo arquivo da sua versão. 
+
+## Como executar os testes?
+>mvn clean compile test
+
 ## Guia
 1) É necessário instanciar o Driver para poder usá-lo
 2) Adicionar as annotations do JUnit, exemplo: `@Before`: código executado antes do teste, `@Test`: código teste, `@After`: código executado depois do teste. 
